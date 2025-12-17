@@ -23,6 +23,3 @@ maintainers:
 dependencies:
   - name: "common"
     repository: oci://registry-1.docker.io/bitnamicharts/nginx
-    tags:
-    - 1.4.0-dev
-    version: 2.30.0
