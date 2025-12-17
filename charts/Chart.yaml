@@ -22,4 +22,7 @@ maintainers:
   email: martin.moreira@xwiki.com
 dependencies:
   - name: "common"
-    repository: oci://registry-1.docker.io/bitnamicharts/nginx
+    repository: oci://registry-1.docker.io/bitnamicharts
+    tags:
+    - bitnami-common
+    version: 2.30.0
