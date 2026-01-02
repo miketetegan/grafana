@@ -5,9 +5,9 @@ resources:
 - ../../base
 
 # Override base Helm values with dev-specific ones
-helmCharts:
-- name: grafana
-  valuesFile: values-dev.yaml
+#helmCharts:
+#- name: grafana
+#  valuesFile: values-dev.yaml
 
 # Add a "surgical" patch (e.g., adding a sidecar or changing a port)
 patches:
