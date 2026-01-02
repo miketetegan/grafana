@@ -7,5 +7,6 @@ helmCharts:
     version: 10.4.3
     releaseName: grafana
     namespace: default
+
 #    valuesFile: values.yaml # This file must exist in your 'base' folder
 #    chartHome: ../deploy
