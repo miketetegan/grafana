@@ -2,7 +2,7 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 helmCharts:
-  - name: grf  # This MUST match the folder name in your screenshot
+  - name: grafana  # This MUST match the folder name in your screenshot
     repo: https://grafana.github.io/helm-charts
     version: 10.x.x
     releaseName: grafana
