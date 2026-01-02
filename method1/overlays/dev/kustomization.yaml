@@ -8,7 +8,7 @@ resources:
 #helmCharts:
 #- name: grafana
 #  valuesFile: values-dev.yaml
-
+namePrefix: method1-
 # Add a "surgical" patch (e.g., adding a sidecar or changing a port)
 patches:
 - target:
