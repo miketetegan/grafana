@@ -4,7 +4,7 @@ kind: Kustomization
 helmCharts:
   - name: grf  # This MUST match the folder name in your screenshot
     repo: https://grafana.github.io/helm-charts
-    version: 10.4.3
+    version: 10.x.x
     releaseName: grafana
     namespace: default
 #    valuesFile: values.yaml # This file must exist in your 'base' folder
